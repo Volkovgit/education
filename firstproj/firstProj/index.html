@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    Test
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Знакомство с HTML</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <div>
+        <p>Name</p>
+        <input tabindex="1" type="text" name="username" />
+      </div>
+      <div>
+        <p>Pass</p>
+        <input tabindex="2" type="password" name="password" />
+      </div>
+      <div>
+        <p>Phone</p>
+        <input tabindex="3" type="tel" name="phone" />
+      </div>
+      <div>
+        <p>Gender</p>
+        <div><input tabindex="4" checked type="radio" name="gender" value="male" />Male</div>
+        <div><input tabindex="4" type="radio" name="gender" value="female" />Female</div>
+      </div>
+      <div>
+        <p>Имущество</p>
+        <div><input tabindex="5" type="checkbox" checked name="bike" value="yes">Bike</div>
+        <div><input tabindex="6" type="checkbox" name="car" value="yes">Car</div>
+        <div><input tabindex="7" type="checkbox" disabled name="house" value="yes">House</div>
+      </div>
+      <div>
+        <p>additional info</p>
+        <textarea tabindex="8" name="text" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <p>Add photo</p>
+        <input type="file" tabindex="9" name="" id="">
+      </div>
+      <div>
+        <p>Color</p>
+        <select name="color">
+            <option value="red">Red</option>
+            <option selected value="blue">Blue</option>
+        </select>
+      </div>
+      <div>
+        <p>Action</p>
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </body>
 </html>
