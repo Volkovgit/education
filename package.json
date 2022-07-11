@@ -1,0 +1,26 @@
+{
+  "name": "education",
+  "version": "1.0.0",
+  "description": "INIT",
+  "main": "input.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volkovgit/education.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volkovgit/education/issues"
+  },
+  "homepage": "https://github.com/Volkovgit/education#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
